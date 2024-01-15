@@ -27,7 +27,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "hm")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6132821365").split())
+    map(int, getenv("OWNER_ID", "5665288359").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -40,9 +40,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/ARAME9")
+    "SUPPORT_CHANNEL", "https://t.me/mantoo456")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP","https://t.me/BESTODISHA")
+    "SUPPORT_GROUP","https://t.me/Educationbabaoffical2")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
